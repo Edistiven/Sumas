@@ -1,0 +1,43 @@
+h2{
+    text-align: center;
+    font-family: monospace;
+    font-size: 25px;
+}
+body{
+    background-color: darkgreen;
+
+}
+#cuadros{
+    text-align: center;
+    padding: 20px 15px;
+
+}
+#botones{
+    padding-top: 10px;
+    text-align: center;
+}
+.btn{
+    
+    border-radius: 15px;
+    padding: 20px 15px;
+    display: inline-block;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+.btn-blue{
+    color: white;
+    background-color: #3CC93F;
+}
+.btn-blue:hover{
+    background-color: #37B839;
+
+}
+.btn-blue:active{
+    background-color: #29962A;
+}
+#resultado{
+    text-align: center;
+    font-family: monospace;
+    font-size: 25px;
+}

@@ -1,0 +1,25 @@
+<body>
+  <h2>Calculadora </h2>
+  <div id="cuadros">
+
+    <input type="number" [(ngModel)]="num1" placeholder="Ingrese un número">
+
+    <input type="number" [(ngModel)]="num2" placeholder="Ingrese un número">
+  </div>
+
+  <br>
+  <br>
+  <div id="botones">
+    <button (click)="suma()" class="btn btn-blue">Calcular Suma</button>
+    <button (click)="resta()" class="btn btn-blue">Calcular Resta</button>
+    <button (click)="multiplicacion()" class="btn btn-blue">Calcular Multiplicacion</button>
+    <button (click)="division()" class="btn btn-blue">Calcular Division</button>
+  </div>
+  <br>
+  <br>
+  <div id="resultado">
+
+    <h2> RESULTADO:{{resultado}} </h2>
+
+  </div>
+</body>
